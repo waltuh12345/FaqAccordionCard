@@ -1,0 +1,6 @@
+@use '../abstract/config' as *;
+body {
+    font-family: $font-stacked;
+    font-size: 14px;
+    color: $clr-neutral300;
+}

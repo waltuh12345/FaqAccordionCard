@@ -1,0 +1,36 @@
+@media (max-width: 40rem) {
+    picture > :last-child {
+        display: none;
+    }
+    picture {
+        margin-top: -6.5rem;
+    }
+    picture img{
+        width: 60%;
+        margin-inline: auto;
+    }
+}
+.container {
+    width: min(90%,360px);
+    margin-inline: auto;
+    padding: 1.5rem;
+}
+@media (min-width: 40rem) {
+    .container {
+        display: flex;
+        width: min(90%,800px);
+        align-items: center;
+        gap: 0 1.5rem;
+        min-height: 24rem;
+        justify-content: space-around;
+        picture {
+            flex: 0 2 22rem;
+        }
+        aside{
+            flex: 0 1 20rem;
+        }
+    }
+    picture > :first-child {
+        display: none;
+    }
+}
